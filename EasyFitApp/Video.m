@@ -18,7 +18,7 @@
         
         id mediaGroupResponse = [dictionary valueForKey:@"media$group"];
         
-        id mediaThumbnailResponse = [mediaGroupResponse valueForKey:@"media$thumbnail"][0];
+        id mediaThumbnailResponse = [mediaGroupResponse valueForKey:@"media$thumbnail"][1];
         // [0] = 90x180
         // [1] = 180x320
         // [2] = 360x480
