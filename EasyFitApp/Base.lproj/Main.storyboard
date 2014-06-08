@@ -31,24 +31,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="EasyFit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJ9-jC-aTk">
-                                <rect key="frame" x="20" y="20" width="280" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EasyFit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJ9-jC-aTk">
+                                <rect key="frame" x="20" y="80" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programas" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABg-TJ-7Vf">
-                                <rect key="frame" x="20" y="80" width="280" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lp8-nR-J16">
-                                <rect key="frame" x="20" y="109" width="280" height="130"/>
+                                <rect key="frame" x="20" y="142" width="280" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76332986536629033" green="0.91674359152354423" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Habitos Alimenticios">
+                                <state key="normal" title="Nutrición">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -56,7 +50,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0j-kd-Tnd">
-                                <rect key="frame" x="20" y="247" width="280" height="130"/>
+                                <rect key="frame" x="20" y="280" width="280" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76332986540000003" green="0.91674359149999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Ejercicio">
@@ -67,7 +61,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVE-gY-ySw">
-                                <rect key="frame" x="20" y="385" width="280" height="130"/>
+                                <rect key="frame" x="20" y="418" width="280" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76332986540000003" green="0.91674359149999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Desintoxicación">
@@ -80,12 +74,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ABg-TJ-7Vf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="4yq-0J-ZAQ"/>
+                            <constraint firstItem="PJ9-jC-aTk" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="16" id="8gv-Ge-GES"/>
                             <constraint firstItem="PJ9-jC-aTk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="CDr-dy-d3V"/>
                             <constraint firstAttribute="trailing" secondItem="PJ9-jC-aTk" secondAttribute="trailing" constant="20" id="SsT-yb-Mt6"/>
-                            <constraint firstItem="PJ9-jC-aTk" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="aYP-Wk-WTv"/>
-                            <constraint firstAttribute="trailing" secondItem="ABg-TJ-7Vf" secondAttribute="trailing" constant="20" id="eaz-4N-C06"/>
-                            <constraint firstItem="ABg-TJ-7Vf" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="16" id="kic-CA-dmp"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jyg-4h-FiG"/>
@@ -94,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="88" y="65"/>
         </scene>
-        <!--View Controller-->
+        <!--Workout View Controller-->
         <scene sceneID="SWc-iP-RqB">
             <objects>
-                <viewController id="AGA-2Z-aP8" sceneMemberID="viewController">
+                <viewController id="AGA-2Z-aP8" customClass="WorkoutViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cjo-tC-VrQ"/>
                         <viewControllerLayoutGuide type="bottom" id="q4y-zL-Vxg"/>
@@ -131,10 +122,10 @@
             </objects>
             <point key="canvasLocation" x="636" y="65"/>
         </scene>
-        <!--View Controller-->
+        <!--Detox View Controller-->
         <scene sceneID="uv9-kf-OvM">
             <objects>
-                <viewController id="kO9-dG-47D" sceneMemberID="viewController">
+                <viewController id="kO9-dG-47D" customClass="DetoxViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DBA-gn-670"/>
                         <viewControllerLayoutGuide type="bottom" id="B14-ua-BAv"/>
@@ -168,10 +159,10 @@
             </objects>
             <point key="canvasLocation" x="636" y="733"/>
         </scene>
-        <!--View Controller-->
+        <!--Nutrition View Controller-->
         <scene sceneID="glm-DS-bR7">
             <objects>
-                <viewController id="g5M-ET-TmW" sceneMemberID="viewController">
+                <viewController id="g5M-ET-TmW" customClass="NutritionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="os1-Bc-aAH"/>
                         <viewControllerLayoutGuide type="bottom" id="Rko-6O-bDF"/>
@@ -180,7 +171,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Habitos Alimenticios" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUM-uC-4Oi">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nutrición" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUM-uC-4Oi">
                                 <rect key="frame" x="17" y="80" width="283" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -190,6 +181,16 @@
                                 <rect key="frame" x="20" y="109" width="280" height="439"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoCell" id="hw7-J6-2WB">
+                                        <rect key="frame" x="0.0" y="22" width="280" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hw7-J6-2WB" id="gAN-ZH-3MD">
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -200,6 +201,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="eOJ-Mq-7ro"/>
+                    <connections>
+                        <outlet property="_videoTableView" destination="2lY-gR-XHI" id="sVz-hu-oaQ"/>
+                        <outlet property="videoTableView" destination="2lY-gR-XHI" id="XWt-IG-FCz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bJV-iA-Hex" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

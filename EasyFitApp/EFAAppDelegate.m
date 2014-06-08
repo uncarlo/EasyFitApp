@@ -7,11 +7,13 @@
 //
 
 #import "EFAAppDelegate.h"
+#import "AFNetworkActivityLogger.h"
 
 @implementation EFAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[AFNetworkActivityLogger sharedLogger] startLogging];
     // Override point for customization after application launch.
     return YES;
 }

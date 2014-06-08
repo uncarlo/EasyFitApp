@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CAE85281942FA5B007C0152 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE85271942FA5B007C0152 /* Video.m */; };
+		1CAE852B1942FCE1007C0152 /* YouTubeVideoProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE852A1942FCE1007C0152 /* YouTubeVideoProvider.m */; };
+		1CAE852E19437A4E007C0152 /* VideoServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE852D19437A4E007C0152 /* VideoServiceLocator.m */; };
 		1CCF6C161942DBA400C759E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCF6C151942DBA400C759E4 /* Foundation.framework */; };
 		1CCF6C181942DBA400C759E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCF6C171942DBA400C759E4 /* CoreGraphics.framework */; };
 		1CCF6C1A1942DBA400C759E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCF6C191942DBA400C759E4 /* UIKit.framework */; };
@@ -21,6 +24,11 @@
 		1CCF6C3F1942DBA400C759E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CCF6C3D1942DBA400C759E4 /* InfoPlist.strings */; };
 		1CCF6C411942DBA400C759E4 /* EasyFitAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF6C401942DBA400C759E4 /* EasyFitAppTests.m */; };
 		1CCF6C4C1942DEC200C759E4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF6C4B1942DEC200C759E4 /* MainViewController.m */; };
+		1CCF6C511942F0C300C759E4 /* NutritionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF6C501942F0C300C759E4 /* NutritionViewController.m */; };
+		1CCF6C541942F0D500C759E4 /* WorkoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF6C531942F0D500C759E4 /* WorkoutViewController.m */; };
+		1CCF6C571942F0E600C759E4 /* DetoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF6C561942F0E600C759E4 /* DetoxViewController.m */; };
+		1CE5F0B81943CF8D00FD8D96 /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE5F0B71943CF8D00FD8D96 /* AFNetworkActivityLogger.m */; };
+		72219040A6F5445B8DDBD6E8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96647BE6B1B742BBA4CE3791 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14CFDAD1E6674997B7BBB7CA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		1CAE85231942F8E5007C0152 /* VideoProviderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoProviderProtocol.h; sourceTree = "<group>"; };
+		1CAE85241942FA16007C0152 /* VideoConsumerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoConsumerDelegate.h; sourceTree = "<group>"; };
+		1CAE85261942FA5B007C0152 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		1CAE85271942FA5B007C0152 /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		1CAE85291942FCE1007C0152 /* YouTubeVideoProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeVideoProvider.h; sourceTree = "<group>"; };
+		1CAE852A1942FCE1007C0152 /* YouTubeVideoProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeVideoProvider.m; sourceTree = "<group>"; };
+		1CAE852C19437A4E007C0152 /* VideoServiceLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoServiceLocator.h; sourceTree = "<group>"; };
+		1CAE852D19437A4E007C0152 /* VideoServiceLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoServiceLocator.m; sourceTree = "<group>"; };
 		1CCF6C121942DBA400C759E4 /* EasyFitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyFitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCF6C151942DBA400C759E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1CCF6C171942DBA400C759E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +70,15 @@
 		1CCF6C401942DBA400C759E4 /* EasyFitAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyFitAppTests.m; sourceTree = "<group>"; };
 		1CCF6C4A1942DEC200C759E4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		1CCF6C4B1942DEC200C759E4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1CCF6C4F1942F0C300C759E4 /* NutritionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NutritionViewController.h; path = ../../../NutritionViewController.h; sourceTree = "<group>"; };
+		1CCF6C501942F0C300C759E4 /* NutritionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NutritionViewController.m; path = ../../../NutritionViewController.m; sourceTree = "<group>"; };
+		1CCF6C521942F0D500C759E4 /* WorkoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutViewController.h; sourceTree = "<group>"; };
+		1CCF6C531942F0D500C759E4 /* WorkoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutViewController.m; sourceTree = "<group>"; };
+		1CCF6C551942F0E600C759E4 /* DetoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetoxViewController.h; sourceTree = "<group>"; };
+		1CCF6C561942F0E600C759E4 /* DetoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetoxViewController.m; sourceTree = "<group>"; };
+		1CE5F0B61943CF8D00FD8D96 /* AFNetworkActivityLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityLogger.h; sourceTree = "<group>"; };
+		1CE5F0B71943CF8D00FD8D96 /* AFNetworkActivityLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityLogger.m; sourceTree = "<group>"; };
+		96647BE6B1B742BBA4CE3791 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +89,7 @@
 				1CCF6C181942DBA400C759E4 /* CoreGraphics.framework in Frameworks */,
 				1CCF6C1A1942DBA400C759E4 /* UIKit.framework in Frameworks */,
 				1CCF6C161942DBA400C759E4 /* Foundation.framework in Frameworks */,
+				72219040A6F5445B8DDBD6E8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +106,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CAE85211942F85E007C0152 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				1CAE85251942FA31007C0152 /* DataAccessObjects */,
+				1CAE85231942F8E5007C0152 /* VideoProviderProtocol.h */,
+				1CAE85241942FA16007C0152 /* VideoConsumerDelegate.h */,
+				1CAE852C19437A4E007C0152 /* VideoServiceLocator.h */,
+				1CAE852D19437A4E007C0152 /* VideoServiceLocator.m */,
+				1CAE85291942FCE1007C0152 /* YouTubeVideoProvider.h */,
+				1CAE852A1942FCE1007C0152 /* YouTubeVideoProvider.m */,
+			);
+			name = DataAccess;
+			sourceTree = "<group>";
+		};
+		1CAE85251942FA31007C0152 /* DataAccessObjects */ = {
+			isa = PBXGroup;
+			children = (
+				1CAE85261942FA5B007C0152 /* Video.h */,
+				1CAE85271942FA5B007C0152 /* Video.m */,
+			);
+			name = DataAccessObjects;
+			sourceTree = "<group>";
+		};
 		1CCF6C091942DBA400C759E4 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +136,7 @@
 				1CCF6C3A1942DBA400C759E4 /* EasyFitAppTests */,
 				1CCF6C141942DBA400C759E4 /* Frameworks */,
 				1CCF6C131942DBA400C759E4 /* Products */,
+				14CFDAD1E6674997B7BBB7CA /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +156,7 @@
 				1CCF6C171942DBA400C759E4 /* CoreGraphics.framework */,
 				1CCF6C191942DBA400C759E4 /* UIKit.framework */,
 				1CCF6C341942DBA400C759E4 /* XCTest.framework */,
+				96647BE6B1B742BBA4CE3791 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,11 +166,12 @@
 			children = (
 				1CCF6C241942DBA400C759E4 /* EFAAppDelegate.h */,
 				1CCF6C251942DBA400C759E4 /* EFAAppDelegate.m */,
-				1CCF6C271942DBA400C759E4 /* Main.storyboard */,
+				1CAE85211942F85E007C0152 /* DataAccess */,
+				1CCF6C4D1942F08000C759E4 /* ViewControllers */,
+				1CCF6C4E1942F08E00C759E4 /* Views */,
+				1CE5F0B41943CF8300FD8D96 /* Utilities */,
 				1CCF6C2D1942DBA400C759E4 /* Images.xcassets */,
 				1CCF6C1C1942DBA400C759E4 /* Supporting Files */,
-				1CCF6C4A1942DEC200C759E4 /* MainViewController.h */,
-				1CCF6C4B1942DEC200C759E4 /* MainViewController.m */,
 			);
 			path = EasyFitApp;
 			sourceTree = "<group>";
@@ -152,6 +205,47 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1CCF6C4D1942F08000C759E4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1CCF6C4A1942DEC200C759E4 /* MainViewController.h */,
+				1CCF6C4B1942DEC200C759E4 /* MainViewController.m */,
+				1CCF6C4F1942F0C300C759E4 /* NutritionViewController.h */,
+				1CCF6C501942F0C300C759E4 /* NutritionViewController.m */,
+				1CCF6C521942F0D500C759E4 /* WorkoutViewController.h */,
+				1CCF6C531942F0D500C759E4 /* WorkoutViewController.m */,
+				1CCF6C551942F0E600C759E4 /* DetoxViewController.h */,
+				1CCF6C561942F0E600C759E4 /* DetoxViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1CCF6C4E1942F08E00C759E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1CCF6C271942DBA400C759E4 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1CE5F0B41943CF8300FD8D96 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1CE5F0B51943CF8D00FD8D96 /* AFNetworkActivityLogger */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		1CE5F0B51943CF8D00FD8D96 /* AFNetworkActivityLogger */ = {
+			isa = PBXGroup;
+			children = (
+				1CE5F0B61943CF8D00FD8D96 /* AFNetworkActivityLogger.h */,
+				1CE5F0B71943CF8D00FD8D96 /* AFNetworkActivityLogger.m */,
+			);
+			name = AFNetworkActivityLogger;
+			path = "AFNetworkActivityLogger-master";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CCF6C441942DBA400C759E4 /* Build configuration list for PBXNativeTarget "EasyFitApp" */;
 			buildPhases = (
+				FF93AFCB3D8B402E8C175BF3 /* Check Pods Manifest.lock */,
 				1CCF6C0E1942DBA400C759E4 /* Sources */,
 				1CCF6C0F1942DBA400C759E4 /* Frameworks */,
 				1CCF6C101942DBA400C759E4 /* Resources */,
+				4AE3AE4D8CB244E8B6C2151F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,14 +341,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AE3AE4D8CB244E8B6C2151F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF93AFCB3D8B402E8C175BF3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1CCF6C0E1942DBA400C759E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE5F0B81943CF8D00FD8D96 /* AFNetworkActivityLogger.m in Sources */,
+				1CAE852B1942FCE1007C0152 /* YouTubeVideoProvider.m in Sources */,
+				1CAE852E19437A4E007C0152 /* VideoServiceLocator.m in Sources */,
 				1CCF6C221942DBA400C759E4 /* main.m in Sources */,
+				1CCF6C571942F0E600C759E4 /* DetoxViewController.m in Sources */,
 				1CCF6C4C1942DEC200C759E4 /* MainViewController.m in Sources */,
+				1CCF6C541942F0D500C759E4 /* WorkoutViewController.m in Sources */,
 				1CCF6C261942DBA400C759E4 /* EFAAppDelegate.m in Sources */,
+				1CCF6C511942F0C300C759E4 /* NutritionViewController.m in Sources */,
+				1CAE85281942FA5B007C0152 /* Video.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +510,7 @@
 		};
 		1CCF6C451942DBA400C759E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CFDAD1E6674997B7BBB7CA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +524,7 @@
 		};
 		1CCF6C461942DBA400C759E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CFDAD1E6674997B7BBB7CA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +595,7 @@
 				1CCF6C461942DBA400C759E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CCF6C471942DBA400C759E4 /* Build configuration list for PBXNativeTarget "EasyFitAppTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +604,7 @@
 				1CCF6C491942DBA400C759E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
