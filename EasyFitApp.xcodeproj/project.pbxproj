@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C9D8B0F1943F1C000054BB3 /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D8B0E1943F1C000054BB3 /* VideoTableViewCell.m */; };
+		1C9D8B1519441F1C00054BB3 /* VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D8B1419441F1C00054BB3 /* VideoPlayerViewController.m */; };
 		1CAE85281942FA5B007C0152 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE85271942FA5B007C0152 /* Video.m */; };
 		1CAE852B1942FCE1007C0152 /* YouTubeVideoProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE852A1942FCE1007C0152 /* YouTubeVideoProvider.m */; };
 		1CAE852E19437A4E007C0152 /* VideoServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE852D19437A4E007C0152 /* VideoServiceLocator.m */; };
@@ -46,6 +47,8 @@
 		14CFDAD1E6674997B7BBB7CA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		1C9D8B0D1943F1C000054BB3 /* VideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewCell.h; sourceTree = "<group>"; };
 		1C9D8B0E1943F1C000054BB3 /* VideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewCell.m; sourceTree = "<group>"; };
+		1C9D8B1319441F1C00054BB3 /* VideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerViewController.h; sourceTree = "<group>"; };
+		1C9D8B1419441F1C00054BB3 /* VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerViewController.m; sourceTree = "<group>"; };
 		1CAE85231942F8E5007C0152 /* VideoProviderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoProviderProtocol.h; sourceTree = "<group>"; };
 		1CAE85241942FA16007C0152 /* VideoConsumerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoConsumerDelegate.h; sourceTree = "<group>"; };
 		1CAE85261942FA5B007C0152 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
@@ -228,6 +231,8 @@
 				1CCF6C531942F0D500C759E4 /* WorkoutViewController.m */,
 				1CCF6C551942F0E600C759E4 /* DetoxViewController.h */,
 				1CCF6C561942F0E600C759E4 /* DetoxViewController.m */,
+				1C9D8B1319441F1C00054BB3 /* VideoPlayerViewController.h */,
+				1C9D8B1419441F1C00054BB3 /* VideoPlayerViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -401,6 +406,7 @@
 				1CCF6C4C1942DEC200C759E4 /* MainViewController.m in Sources */,
 				1CCF6C541942F0D500C759E4 /* WorkoutViewController.m in Sources */,
 				1CCF6C261942DBA400C759E4 /* EFAAppDelegate.m in Sources */,
+				1C9D8B1519441F1C00054BB3 /* VideoPlayerViewController.m in Sources */,
 				1CCF6C511942F0C300C759E4 /* NutritionViewController.m in Sources */,
 				1CAE85281942FA5B007C0152 /* Video.m in Sources */,
 			);
