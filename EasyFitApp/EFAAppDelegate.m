@@ -13,7 +13,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // sleep(2.5);
+    sleep(2.5);
     [[AFNetworkActivityLogger sharedLogger] startLogging];
     // Override point for customization after application launch.
     return YES;
